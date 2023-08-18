@@ -1,0 +1,20 @@
+.card_bg{
+    background-image: url("https://assets.ccbp.in/frontend/react-js/congrats-card-bg.png");
+    height: 100vh;
+}
+.cardbgcolor{
+    background-color: aqua;
+}
+.rotate:hover{
+    transform:  rotateY(110deg);
+    transition: transform 2s;   
+}
+@keyframes flip-with-rotate {
+    0% {
+        transform: perspective(400px) rotateY(0);
+    }
+
+    100% {
+        transform: perspective(400px) rotateY(180deg);
+    }
+}
